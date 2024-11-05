@@ -1,4 +1,4 @@
-package registeration_page;
+package com.reg;
 
 import java.time.Duration;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class register {
+public class registration_test {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
@@ -44,8 +44,6 @@ public class register {
 		}
 		
 		
-		
-		driver.navigate().to("https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dFN1Y2Nlc3Mv/");
 		
 		
 		
